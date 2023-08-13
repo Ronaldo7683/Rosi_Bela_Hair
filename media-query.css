@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/*Typical Device Breakpoints
+--------------------------------
+Pequenas Telas: até 600px
+Celular: de 600px até 798px
+Tablet: 768 até 992px
+Desktop: 992px até 1200px
+TV:
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #navheader > a {
+        font-size: 1.0em;
+    }
+    
+    #cabecalho {
+     background-image: url(Imagens/imagem05.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+     padding: 0px;
+     margin: 0px;
+     background-color: rgba(221, 221, 221, 0.644);
+     height: 250px;
+    }
+}
+
+@media screen and (max-width: 798px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+    
+    #navheader > a {
+        font-size: 1.0em;
+    }
+    
+    #cabecalho {
+     background-image: url(Imagens/imagem005.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 200px;
+     padding: 0px;
+     margin: 0px;
+     background-color: rgba(221, 221, 221, 0.644);
+    }
+     
+    section {
+        padding-left: 0px;
+        padding-right: 0px;  
+        margin-left: 0px;
+    }
+
+    #secao2 {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 300px;
+    }
+
+    #secao3 {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 300px
+    }
+
+    #secao4 {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 300px
+    }
+
+    #secao5 {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 300px
+    }
+
+    #secao6 {
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 300px
+    }
+
+    footer {
+        padding-top: 50px; 
+        padding-bottom: 50px;
+    }
+
+    #pfooter {
+        font-size: 1.0em;
+        text-align: center;
+        }
+
+    #navfooter {
+        font-size: 0.9em;
+    }
+
+    #autor {
+        font-size: 0.7em;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
